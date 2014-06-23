@@ -1,0 +1,361 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+	<title>Project Ripple</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="Homepage" />
+	<meta name="author" content="Cameron Wrabel" />
+	<link rel="shortcut icon" href="Images/RippleShortcutIcon.png">
+
+  <!--Fonts-->
+  <link href='http://fonts.googleapis.com/css?family=Play:400,700&subset=cyrillic-ext' rel='stylesheet' type='text/css'>
+  
+  <!--Bootstrap-->	
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+
+  <!-- site specific stylesheets -->
+	<link rel="stylesheet" type="css/text" href="stylesheets/site.css">
+	<link rel="stylesheet" type="css/text" href="stylesheets/ripple.css">
+	<!--
+	<link rel="stylesheet" type="text/javascript" href="stylesheets/carousel.css">
+-->
+
+
+
+	<script src="bower_components/modernizr/modernizr.js"></script>
+
+</head>
+<body>
+
+
+	<!--Navigation Bar -->
+
+		<div class="contain-to-grid sticky">
+		    <nav class="top-bar" data-topbar data-options="sticky_on: small">
+		      <ul class="title-area">
+		        <!-- Title Area -->
+		        <li class="name">
+		          <h1>
+		            <a href="index.html">Project Ripple</a>
+		          </h1>
+		        </li>
+		        <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
+		      </ul>
+
+		      <section class="top-bar-section">
+		        <!-- Right Nav Section -->
+		        <ul class="right">
+		          <li class="divider"></li>
+		          <li><a href="#overview">Overview</a></li>
+		          <li class="divider"></li>
+		          <li><a href="#hardware">Hardware</a></li>
+		          <li class="divider"></li>
+		          <li><a href="#network">Ripple Network</a></li>
+		          <li class="divider"></li>
+		          <li><a href="#android">Android</a></li>
+		          <li class="divider"></li>
+		          <li><a href="#nfc">NFC</a></li>
+		          <li class="divider"></li>
+		          
+		          <li class="has-dropdown">
+		            <a href="#">Connect</a>
+		            <ul class="dropdown">
+		              <li><a href="http://www.github.com/projectripple" target="blank">Github</a></li>
+		              <li><a href="http://www.wbi-icc.com/centers-services/discovery-lab" target="blank">Discovery Lab</a></li>
+		              
+		              <li class="divider"></li>
+		              <li><a href="index.html">Contact Us</a></li>
+		            </ul>
+		          </li>
+		        </ul>
+		      </section>
+		    </nav>
+		  </div>
+		<!-- End nav bar -->
+
+
+    <div class="row" id="title-name">
+    	<div class="large-12 columns center" style="background-color: rgba(0,0,0,.6)">
+    		<h1 class="title-name"><img src="Images/RippleOnDarkBigger.png" alt="Ripple Logo Header">
+    	</div>
+    </div>
+
+
+    <!--Overview-->
+    <div class="row" id="overview">
+    	<div class="large-12 columns center" >
+    		<div class="panel" style="background-color: rgba(255,255,255,.7)">
+    			<div class="row" style="background-color: rgba(0,0,0,.8)">
+            <h1>Overview</h1>
+          </div>
+    			<div class="row">
+    				<div class="large-8  columns">
+    					<p>Project Ripple is a light-weight, internet-enabled sensor network that allows for improved situational awareness and patient monitoring in combat rescue situations. </p>
+
+              <!--for the overview sections "how what why"-->
+              <dl class="accordion" data-accordion>
+                <dd style="color:rgba(0,0,0,.8)">
+                  <a href="#problem"><strong>The Problem</strong></a>
+                  <div id="problem" class="content">
+                    <h6 style="color:#e68a00;"><em>Here's a scenario...</em></h6>
+                    <h6>A large-scale natural disaster has occurred and pararescue troopers are deployed to assess and transport casualties for medical evacuation. Victims with severe wounds will be transported immediately while others are forced to wait. During the patient transfer process a significant number of the patients' vital information is lost or compromised, causing further delay of treatment for those still on the ground.
+                    </h6>
+                  </div>
+                </dd>
+                <dd>
+                  <a href="#solution"><strong>The Vision</strong></a>
+                  <div id="solution" class="content">
+                    <h6>The design of a Medical Body Area Network (MBAN) incorporates small physiological sensors that monitor the vital conditions of a patient. This data is collected by a single aggregation device and broadcast to a local network spanning the rescue site, an aircraft, or a hospital. The network encompasses all patients in the area, and provides an unparalleled level of situational awareness to on-site responders and off-site consultants. With this enhanced model of communication, Project Ripple seeks to pioneer a paradigm shift in medical telemetry.
+                    </h6>
+                  </div>
+                </dd>
+                <dd>
+                  <a href="#implementation"><strong>The Implementation</strong></a>
+                  <div id="implementation" class="content">
+                    
+                    <h6>Project Ripple is built upon three main focal points:
+                        <ul class="circle">
+                          <li ><em>Ripple Sense</em></li>
+                            <h6 style="text-indent: 1.5em; margin:none;">Low-power sensors and radios connect to form a network on the human body. These sensors monitor and report patient health data to the broker.</h6>
+                          <li ><em>Ripple Link</em></li>
+                            <h6 style="text-indent: 1.5em; margin:none;">The information broker aggregates sensor data and publishes to subscribed clients. When an internet connection is available, the cloud provides end-clients with geospatial information and other useful data.</h6>
+                          <li ><em>Ripple UI</em></li>
+                            <h6 style="text-indent: 1.5em; margin:none;">Responders will be equipped with Android Tablets to visualize their patients' vital statistics and record their observations. NFC triage tags are implemented to replace the existing triage system. A Google Glass Heads-up Display (HUD) is being developed which will give responders a concise view of patient status without the need to give up their hands to check.</h6>
+                        </ul>
+                    </h6>
+                  </div>
+                </dd>
+              </dl>
+
+
+    				</div>
+    				<div class="large-4 columns" style="margin-top:1em;">
+    					<img src="Images/INTERNETS.png" height="100%" width="100%">
+    				</div>
+    				
+    				
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+    <!-- End of Overview -->
+
+
+    <!-- Hardware -->
+    <div class="row" id="hardware">
+      <div class="large-12 columns center" >
+        <div class="panel" style="background-color: rgba(255,255,255,.7)">
+          <div class="row" style="background-color: rgba(0,0,0,.8)">
+            <h1 >Hardware</h1>
+          </div>
+
+          <div class="row">
+            <div class="large-12 columns center">
+              <p class="top">Sensor hardware is implemented in the form of low-power, attachable biopotential meters that interface with the Econotag breakout board.</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="large-3 columns">
+              <p>A reflectance sensor connects to the D-Sub connector on the Pulse-Ox modules which emits two different wavelengths of light into the patient’s skin which are then picked up by a photodetector on the sensor.</p>
+              <img src="Images/finger.png" style="padding-left:1rem; padding-right:1rem;">
+              <p class="caption" style="margin-top:.7rem";>Pulse Oximeter</p>
+            </div>
+            <div class="large-3 columns">
+              <p>The ADS1292R is an integrated circuit provided by Texas Instruments which provides the function of a low-power, two-channel, 24-Bit Analog Front End for Biopotential Measurements like ECG and respiration.</p>
+              <img src="Images/ECG_breakout.png" alt="Custom ECG breakout board">
+              <p class="caption" style="margin-top: 1.0rem;">ECG Shield with TI ADS1292R</p>
+            </div>  
+            <div class="large-3 columns">
+              <p>The Redbee Econotag is a 802.15.4 wireless mote utilizing the MC1322X microcontroller. Econotag modules in Project Ripple run the Contiki OS and IETF 6LoWPAN, allowing them to connect over IPv6.</p>
+
+              <img src="Images/econotag_w_board_&_sensors.png" alt="Econotag board with attached sensors" height="95%" width="95%">
+              <p class="caption" style="margin-top:.8rem;">Econotag with attached sensors</p>
+            </div>
+
+            <div class="large-3 columns">
+              <p>The Raspberry Pi is a low-power computer that this project employs as a dual-functioning information broker and border router. The Pi receives exchanges data with Econotag motes and clients over IP.</p>
+              <img src="Images/rpi.jpg" alt="Raspberry Pi Model B" height="85%" width="85%">
+              <p class="caption" style="margin-top:.7rem";>Raspberry Pi</p>
+            <div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Hardware -->
+
+
+    <!-- Ripple Network -->
+    <div class="row" id="network">
+      <div class="large-12 columns center" >
+        <div class="panel" style="background-color: rgba(255,255,255,.7)">
+          <div class="row" style="background-color: rgba(0,0,0,.8)">
+            <h1 >Ripple Network</h1>
+          </div>
+          <div class="row">
+            <div class="large-6 columns">
+              <p>The network architecture of Project Ripple begins with the MBAN and extends upward; to the cloudlet, the cloud, and beyond.</p>
+              <dl class="accordion" data-accordion>
+                <dd style="color:rgba(0,0,0,.8)">
+                  <a href="#mote"><strong>Mote Network</strong></a>
+                  <div id="mote" class="content">
+                    <h6 style="color:#e68a00;"><em>Sensors, Shields, Microcontrollers</em></h6>
+                    <ul>
+                      <li>A Mesh network of low-power devices with IEEE 802.15.4 radios (e.g. Econotags)</li>
+                      <li>Sensor data is pushed to the Information Broker (Raspberry Pi), then forwarded to the responders' local Android devices. </li>
+                      <li>Network communicates using IPv6 via the 6LoWPAN standard</li>
+                      <li>Border router facilitates communication with other networks(Ethernet, Wi-Fi)</li>
+                      <li>Network map created by border router using the IPv6 Routing Protocol for Low power and Lossy Networks (RPL)</li>
+
+                    </ul>
+                  </div>
+                </dd>
+                <dd>
+                  <a href="#broker"><strong>Cloudlet</strong></a>
+                  <div id="broker" class="content">
+                    <h6 style="color:#e68a00;"><em>Know the surroundings</em></h6>
+                    <ul>
+                      <li>Hosted on the low-profile Raspberry Pi</li>
+                      <li>Serves as a miniature cloud for on-scene responders.</li>
+                      <li>Program that acts as a bridge/buffer between the mote network and the responder network because of hardware incompatibilities</li>
+                      <li>Handles local data management(archiving) and forwarding of latest sensor readings to responder devices</li>
+                      <li>Utilizes MQTT protocol to transmit data to end clients (Android, PC, etc)</li>
+                      <li>Maintains list of devices and patients and makes available to end clients</li>
+                    </ul>
+                  </div>
+                </dd>
+                <dd>
+                  <a href="#cloud"><strong>The Cloud</strong></a>
+                  <div id="cloud" class="content">
+                    <h6 style="color:#e68a00;"><em>Global Awareness</em></h6>
+                    <ul>
+                      <li>Enables the Ripple Command Center view</li>
+                      <li>Maintains master list of devices and patients</li>
+                      <li>Asynchronously aggregates all sensory directory lists from cloudlets</li>
+                      <li>Allows NASA World Wind to provide location data to cloudlet devices</li>
+                      <li>Disseminates all data to any client under subscription</li>
+                  </div>
+                </dd>
+              </dl>
+  
+            </div>
+
+            <div class="large-6 columns">
+              <img src="Images/RippleNetwork.png" height="100%" width="100%">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- End Ripple Network -->
+
+
+    <!-- Android -->
+    <div class="row" id="android">
+      <div class="large-12 columns center" >
+        <div class="panel" style="background-color: rgba(255,255,255,.7)">
+          <div class="row" style="background-color: rgba(0,0,0,.8)">
+            <h1>Android</h1>
+          </div>
+          <div class="row">
+            <div class="large-6 columns">
+              <img src="Images/Transformer-2014-06-20-090702.png" height="100%" width="100%">
+            </div>
+
+            <div class="large-6 columns">
+              
+              <ul>
+                <li>Built on the Android framework</li>
+                <li>Intuitive interface gives mobility to responders when viewing and interacting with patients' health data</li>
+                <li>Top banner provides a vital overview for multiple patients simultaneously</li>
+                <li>Patient health information is queried from the information broker</li>
+                <li>Graphic representation of health data plotted in real time</li>
+                <li>Overhead map view gives responders higher-level awareness of surroundings</li>
+              </ul>
+              
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+    
+    <!-- End Android -->
+
+
+    <!-- NFC -->
+    <div class="row" id="nfc">
+      <div class="large-12 columns center" >
+        <div class="panel" style="background-color: rgba(255,255,255,.7)">
+          <div class="row" style="background-color: rgba(0,0,0,.8)">
+            <h1 >Near Field Communication (NFC)</h1>
+          </div>
+          <div class="row">
+            
+            <div class="large-3 columns">
+              <img src="Images/triageTag1.png" alt="Triage Tag">
+            </div>
+
+            <div class="large-6 columns">
+              
+              <ul>
+                <li>Implemented as a substitute for triage tags during mass casualty incident.</li>
+                <li>Responders will be equipped with Ripple NFC app for Android tablets.</li>
+                <li>Ripple NFC app provides a user interface similar to existing triage tags</li>
+                <li>Supports read/write/re-write functions</li>
+                <li>Patients will have NFC tag attached to them, similar to existing triage tag protocol</li>
+                <li>NFC tags allow for fast and efficient data transfer without the need to pair devices</li>
+              </ul>
+            </div>
+
+            <div class="large-3 columns" style="padding-top:1rem;">
+              <img src="Images/nfc.png" alt="NFC">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- End NFC -->
+
+
+
+
+
+
+
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/foundation/js/foundation.min.js"></script>
+<script>
+$(document).foundation();
+
+var doc = document.documentElement;
+doc.setAttribute('data-useragent', navigator.userAgent);
+</script>
+<script src="bower_components/foundation/js/app.js"></script>
+
+
+<!-- For the Carousel -->
+<script type="text/javascript">
+$(function(){
+   $('.carousel').carousel();
+});
+</script>
+
+<!-- Bootstrap core JavaScript ================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="bower_components/bootstrap/js/holder.js"></script>
+
+
+		
+
+
+</body>
+</html>
