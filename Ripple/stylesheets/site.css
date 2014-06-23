@@ -1,0 +1,204 @@
+body{
+
+	background-image: url('../Images/carbonBackground.jpg');
+	/*background-repeat:no-repeat;*/
+	background-attachment:scroll;
+	font-family: 'Play', sans-serif;
+	/*background-size: cover;*/
+	
+}
+
+/*change background if screen size is xxl or higher*/
+@media only screen and (min-width:90.063em) and (max-width:120.063em) {
+	body{
+
+		background-image: url('../Images/carbonBackground.jpg');
+		/*background-repeat:no-repeat;*/
+		background-attachment:scroll;
+		/*background-size: cover;*/
+	}
+}
+
+/*change background to white if screen size is 1420 or below*/
+@media (max-width: 1420px) {
+	body{
+		background-image: url('../Images/carbonBackground.jpg');
+		/*background-repeat:no-repeat;*/
+		background-attachment:scroll;
+	}
+}
+
+h1 {
+	
+	font-size: 2em;
+	line-height: 2em;
+	padding-top: .1em;
+}
+
+h2 {
+	
+	font-size: 1rem;
+	padding-top: .5em;
+}
+
+p {
+	 
+	font-size: 1.17em;
+	line-height: 1.20sem;
+}
+
+li{
+	/*color:#e68a00;*/
+	color: #333333;
+	font-weight: bold;
+	font-size: 1.17em;
+	line-height: 1.5rem;
+	padding: 1rem;
+}
+
+
+
+.strong{
+	font-family: 'Cabin bold';
+}
+
+.exp-img{
+	padding-bottom: 10px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.txt-right{
+	text-align: right;
+}
+
+.txt-left{
+	text-align: left;
+}
+
+
+div#aboutme{
+	/*padding-top: 10px;*/
+}
+
+/*div#aboutme p{
+	line-height: 2em;
+	font-size: 20px;	
+	}*/
+
+	div#title-name{
+		padding-bottom: 2em;
+	}
+
+	.title-name{
+		font-size: 500%;
+		text-align: center;
+		padding-top: 40px;
+
+	}
+
+	.panelw {
+		border-style: solid;
+		border-width: 1px;
+		border-color: #d8d8d8;
+		margin-bottom: 1.25rem;
+		padding: 1.25rem;
+		background: #fff; 
+		/*box-shadow: 5px 5px 5px #888888;*/
+	}
+	.paneli {
+		border-style: solid;
+		border-width: 1px;
+		border-color: #d8d8d8;
+		margin-bottom: 1.25rem;
+		padding: .5rem;
+		background: #fff; 
+		/*box-shadow: 5px 5px 5px #888888;*/
+	}
+
+
+	.rightside
+	{
+		position:absolute;
+		right:0px;
+		width:300px;
+		background-color:#b0e0e6;
+	}
+
+
+	.leftside
+	{
+		position:absolute;
+		left:0px;
+		width:300px;
+		background-color:#b0e0e6;
+	}
+
+	.center
+	{
+		margin-left:auto;
+		margin-right:auto;
+		width:70%;
+/*	background-color:#b0e0e6;
+*/}
+
+.good-check{
+	color:green;
+}
+.bad-check{
+	color:red;
+}
+
+.down{
+	padding-top: 50px;
+}
+/*.exactcenter {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	left: 50%;
+	top: 50%; 
+	margin-left: -150px;
+	margin-top: -150px;
+	}*/
+
+	div#name{
+		padding: 100px;
+		text-align: center;
+	}
+
+	div.school{
+		line-height: .5em;
+	}
+
+	div#overview h1, div#nfc h1, div#android h1, div#network h1, div#hardware h1, div#projects h1{
+		color:white;
+		text-align:center;
+		padding-top:.25rem;
+	}
+
+	div#overview li{
+		color:#e68a00;
+	}
+
+	div#hardware p{
+		font-size: 1em;
+	}
+
+	#hardware p.top {
+		font-size: 1.17em;
+		margin-left: 3rem;
+		margin-right: 3rem;
+	}
+
+	#hardware p.caption{
+		margin-top:auto;
+		text-align: center;
+		font-size: .5rem;
+	}
+
+	div#network li{
+		font-size: .9em;
+		line-height: 1.17em;
+		font-weight: normal;
+	}
